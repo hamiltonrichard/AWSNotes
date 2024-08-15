@@ -85,6 +85,20 @@ __Table 1.2__ Core AWS Services by category
 
 
 ### AWS Platform Architecture
+AWS has multiple datacenters across the globe that are grouped by [Region and Availablity zones](https://aws.amazon.com/about-aws/global-infrastructure/). Use cases for using different zones include:
+* Customer Access
+* Regularatory compliance
+
+Because of low-latency access is so important,some services are offered from designated edge network locations. These services include CloudFront, Route 53, Firewall Manager, Shield and WAF. Refer to the AWS Documentation for [AWS Services by region](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)
+
+_Endpoint Information_
+
+Enpoints in AWS use a specific naming formation:
+
+__[protocol]:\[service-code\].\[region-code].amazonaws.com__
+
+A description of the enpoint descriptions can be found in the [AWS Documentation](https://docs.aws.amazon.com/general/latest/gr/rande.html). 
+
 ### AWS Reliabilty and Compliance
 __The AWS Shared Responsibilty Model__
 
