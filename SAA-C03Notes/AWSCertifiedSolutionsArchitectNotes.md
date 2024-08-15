@@ -43,14 +43,47 @@ Over the long term, cloud computing may or may not save you money. Using [Pricin
 
 AWS offers a large number of services, but this table contains a list of the core services.
 
+__Table 1.1__ AWS service categories
 |Category|Function|
 |:-------|:-------|
 |Compute| These services replicate the role of physical servers. Advanced configurations such as autoscaling, load balancing,containers and serverless arhitectures are offered|
 |Networking|Application connectivity, access control and enhanded connections |
 |Storage| Various storage options designed for short and/or long term usage|
 |Database| Various managed solutions utilize various formats including relational,No SQL or caching| 
-|Application Management| |
-|Security and Identity||
+|Application Management| Monitoring, auditing, and configuring AWS account services and running resources|
+|Security and Identity|Services for managing, authentication and authoriation, data and connection encryption, and intergation with 3rd party authentication management systems|
+
+__Table 1.2__ Core AWS Services by category
+|__Category__|__Service__| Function|
+|:------|:------|:------|
+|Compute| Elastic Compute Cloud (EC2)|EC2 server instances provide virtual versions of the servers you would run in your local data center. EC2 instances can be provisioned with the CPU, memory, storage, and network interface profile to meet any application need, from a simple web server to one part of a cluster of instances, providing intergrated multi-tiered fleet architecture. Since EC2 instances are virtual, they're resource-efficent and deploy nearly instantly.
+||Lambda| Serverless application architectures like the one provided by Amazon'e Lambda service allow you to provide responsive public-facing services without the need for a server that's actually running 24/7. Instead, network events (like consumer requests) can trigger the execution of a prdefined code-based operation. When the operation (which can currently run as long as 15 minutes) is complete, the Lambda event end, and all resources automatically shut down.|
+||Auto Scaling| Copies of running EC2 instances can be defined as image templates and automatically launched (or scaled up)when client demand can't be met by existing instances. As demand drops, unused instances can be terminated (or scalled down.)|
+||Elastic Load Balancing||
+||Elastic Beanstalk||
+|Networking|Virtual Private Cloud||
+||Direct Connect||
+||Route 53||
+||CloudFront||
+|Storage|Simple Storage Service (S3)||
+||S3 Glacier||
+||Elastic Block Storage (EBS)||
+||Storage Gateway||
+|Database|Relational Database Service||
+||DynamoDB||
+|Application management|CloudWatch||
+||CloudFormation||
+||CloudTrail||
+||Config||
+|Security and Identity|Identityand Access Management (IAM)||
+||Key Management Service (KMS)||
+||Directory Service||
+|Application Intergration|Simple Notification Service (SNS)||
+||Simple Workflow (SWF)||
+||Simple Que Service(SQS)||
+||API Gateway||
+
+
 ### AWS Platform Architecture
 ### AWS Reliabilty and Compliance
 __The AWS Shared Responsibilty Model__
