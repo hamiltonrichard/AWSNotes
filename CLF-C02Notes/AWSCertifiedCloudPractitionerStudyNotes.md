@@ -84,13 +84,162 @@ _Scalable, but not Elastic_
 
  Many services are scalable, but they all aren't considered "elastic". For example, Amazon EC2 is considered to be scalable since you can deploy instances instances manually. However, EC2 isn't "elastic" itself.  To deploy or destroy EC2 instances based on demand requires the use of AWS Auto Scaling. 
 
+### Exam essentials.
+
+* Understand how a large in geographically dispersed infrastructure improves service quality.
+
+* Understand how metered, pay per use pricing makes for flexible compute options.
+
+* Understand how serverless computing can be both cheap and efficient.
+
+* Understand how scalability allows applications to grow to meet the deman.
+
+* Understand how electricity matches compute power for both rising and falling demand.
+
+### Summary
+
+The size and quality of a major cloud provider. Like AWS means that is customers can often benefit from higher quality security availability and reliability than they can provide locally.
+
+Well, AWS customers are still responsible for the applications they run in the cloud. They don't need to worry about the underlying physical infrastructure that's managed by AWS.
+
+Much of the attraction of cloud computing is the ability to pay for only the services you need to use and only. When you use them?
+
+Much of the attraction of cloud computing is the ability to pay for only the services you use, and only as you use them. This allows the provisioning of sophisticated applications with virtually no capital expenses. You will of course need to assess and manage the operating expenses.
+
+Server visualization makes it possible to more densely packed software operations on fiscal hardware, potentially driving down the cost and approving the time to deployment of compute workloads. in even more virtualized kind of virtualizations is serverless computing, where customers are aware only of their code and the network events that trigger it. Cloud optimized workloads are designed to take advantage of scalability and elasticity of the cloud platform.
 
 ## __Chapter 2 Understanding Your AWS Account__
+
+This chapter will show you the following:
+
+* Taking advantage of the AWS Free Tier.
+* Understanding how AWS services are priced and how to model pricing for complicated combinations (or stacks)  of resources.
+* Understanding the usage limits AWS places on services and how to raise those limits.
+* How to keep on top of your actual account costs.
+
 ### __The Free Tier__
+
+Aws free tier services are offered for the first 12 months after opening an AWS account. This allows you to experiment with light versions of most aws services without being billed.
+
+__How does the free tier work?__
+
+An example of a free tier service is EC2. You are permitted to run AT 2 dot micro EC2 instance powder by Windows or Linux for up to 750 hours per month. You can also utilize S3 storage for up to 5 GIGS during the same year. If you exceed the free tier usage, you are only billed for the difference.
+
+__Tracking your free tier Usage__
+
+AWS will send you messages if you're free tier usage is approaching or has passed the limits. You can also check your billing dashboard.
+
+__What's available under the free tier?__
+
+The feature services include:
+
+* Light implementations of most AWS service that are available for the first 12 months.
+* light usage of certain aws services that are always available even after your initial 12 months are up.
+
+You can get a detailed rundown of both classes or services at https://aws.amazon.com/free.
 ### __Product Pricing__
+
+You can find out about pricing by going to the pages for Amazon services. For example, if you go to [the S3 product page](https://aws.amazon.com/s3/) you can click on [pricing](https://aws.amazon.com/s3/pricing/?nc=sn&loc=4) to get the details.
+
+
+### Working with the AWS Pricing Calculator
+
+You can use the AWS pricing calculator to create estimates it allows you to select the services and configure them and show what the cost that you occur.
+
+The calculator has two benefits:
+
+1. The pricing is up to date so you'll be confident you'll get an accurate picture of your real cost.
+
+2. The final review is an excellent way to visualize the impact of each individual element you will have On your overall budget it's also easy to modify the configuration so you can come up with multiples so you can see what the cost involved would be for each.
+
+#### __Exercise 2.1__
+
+[Create an estimate using the AWS Cost calculator.](https://docs.aws.amazon.com/pricing-calculator/latest/userguide/generate-estimate.html)
+
 ### __Service Limits__
+
+AWS does impose service limits. most of the limits are soft. This means you can request an increase. However, there are some hard limits that can't be increased.
+
+You can find a complete and updated list of service limits on the AWS documentation page https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+
+
+
 ### __Billing and Cost Management__
 
+Along with keeping track of performance, you'll want to keep an eye on the expenses using the billing dashboard. Various tools can be found in the building dashboard to help with your account oversight. The dashboard  is accessible through the account dropped down menu at the top of the AWS management console. https://console.aws.amazon.com/console.
+
+__The AWS Billing Dashboard__
+
+The billing and cost management dashboard contains several visual spin summaries that display your cost. For the previous or current months so far, along with the forecast of the costs, you'll likely to face at the end of the month. Links are also included to set. up your payment information and enter. your organization tax information. The payments leak provides records for previous transactions.
+
+__AWS Budgets__
+
+AWS Budgets is a tool that can track a specified series of events and send alerts if a threshold is close to being reached or has exceded budget specifications. 
+
+You can create the following budget types.
+
+* cost budgets to monitor the cost of preset service. Being incurred almost your account using either fixed or variable targets.
+
+* Uses budgets to track how much of a particular service you consume
+
+* Reservation instance utilization or coverage budgets to help you understand how close your actual usage is to matching reserve instances you've purchased.
+
+* saving plans coverage budgets to help understand how close you are to your actual uses to match the saving plans you've purchased.
+
+
+### __Monitoring Your Costs__
+
+__Cost Explorer__
+
+Let you build graphs to visualize your accounts historical and current cost the default view shows you're spending over the past few months broke it down by service. You can configure the parameters letting your filter account cost by events, by date range, region, availability zone, service instance type and others. ___Formated CSV files can be downloaded which contains based on the customized views provided.___
+
+Cost Explorer can be found at https://aws.amaon.com/aws-cost-management
+
+[Analyzing your costs and usage with AWS Cost Explorer](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html)
+
+__Cost and Usage Reports__
+
+Cost and usage reports are accessed from the porch link on the building dashboard. you can configure reports to be created that include the full range of activity on your account including what resources you have been running and how much they're costing you You can control the level of detail and able support for Redshift and or Amazon Quicksite (A manage pay per user business intelligence tool). The reports are generated at Preset and are compressed saved using a csv format and then sent to an S3 bucket you've already created. you'll need to configure Redshift or QuickSight to access In process the data it generated.
+
+[How to create a cost and usage dashboard](https://docs.aws.amazon.com/cur/latest/userguide/dataexports-create-dashboard.html)
+
+__Cost Allocation Tags__
+
+tags are metadata information elements representing a resource and its actions tasks can be used organized and track your resources allowing you to visualize and better understand how resources are being used chesty confused things however aws offers two distinct kinds of tags that actually have nothing to do with each other.
+
+__Cost allocation tags__ are meant to interact with the billing tools and won't show up in any context of any other aws resource process. They are solely for the purpose of tracking your account spending.
+
+AWS also provides __resource tags__.these tags help administrators identify different resources.
+
+### __AWS Organizations__
+
+Formally known as consolidated billing, idiots organizations allow you to centralize the administration of multiple AWS accounts owned or controlled by a single company. 
+
+Remember that once accounts are linked maintain a secure profile and following best practices becomes even more critical than for stand alone accounts after all a security breach in any one length account runs the wrist of spreading the vulnerability to everything running in any of your accounts.
+
+### Summary
+
+tier offers new accounts a full year of free access to light configuration of most aw services It's meant to be an opportunity to experiment and learn with your organizational needs in the cloud.
+
+AWS pricing calculator led you anticipate real-world uses costs for AWS deployments.
+
+Remember that resource request can be refused if your request would have passed your consumption past a define service limit. Some services can be increased And have soft limits while others are fixed having hard limits.
+
+ADBS Billing Dashboards that hub for accessing account information, payment and tax status, management cost, monitoring and cost control
+
+### Exam Essentials
+
+* I understand the value of the 12 months free tier. The free tier lets you run light services such as AT 2 micro EC2 instance and a 30 gig ebs volume. the goal is to get you comfortable with aws services so you can learn how they can be used to host your applications.
+
+* I understand the value of permanent free services. Low volume consumption includes the retrieval of up to one million free AWS Lombarda request or 62,000 outbound emails through Amazon scs each month.
+
+* Know how to access Amazon's resource pricing documentation.
+
+* Used aws pricing calculator to accurately model multitiered application stack pricing.
+
+* Understand how to use AWS services is limited by default. some restrictions are hard Restrictions meaning that they are fixed and cannot be changed. other restrictions are soft ones and can be changed if requested. 
+
+*Understand the value of cost management tools for avoiding costly cloud overspends. AWS budgets can be configured to send alerts when your resource consumption approaches or passes a preset limit. cost and usage reports can send you in depth and ongoing CSV/ formatted data to Redshift or QuickSite for analysis you can use cost allocation tags to more effectively track and manage source of your account cost the security operations of multiple AWS accounts is controlled by single company can be managed through AWS organizations.
 ## __Chapter 3 Getting Support on AWS__
 ### __Support Plans__
 ### __Documentation and Online Help__
