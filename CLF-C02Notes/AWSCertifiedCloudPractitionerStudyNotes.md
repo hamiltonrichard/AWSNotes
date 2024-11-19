@@ -242,6 +242,19 @@ ADBS Billing Dashboards that hub for accessing account information, payment and 
 *Understand the value of cost management tools for avoiding costly cloud overspends. AWS budgets can be configured to send alerts when your resource consumption approaches or passes a preset limit. cost and usage reports can send you in depth and ongoing CSV/ formatted data to Redshift or QuickSite for analysis you can use cost allocation tags to more effectively track and manage source of your account cost the security operations of multiple AWS accounts is controlled by single company can be managed through AWS organizations.
 ## __Chapter 3 Getting Support on AWS__
 ### __Support Plans__
+When you create a new aws account, you're required to select a support plan.
+
+Types of support plans and their costs.
+
+|__AWS Service Plan__ | __Cost of Plan__ |                                  
+| :---:| :---|
+| _Developer Plan_ | <ul><li>$29 a month or</li><li>3% of your monthly account usage.</li></ul>|
+|_Business Plan_| <ul><li>Greater of $100 or</li><li>10% of usage up to $10.000<li>7% of usage up to $80,000</li><li>5% usage up to $250,000</li><li>3% of usage over $250,000</li></ul>|
+|_Enterprise Plan_|<ul><li>Greator of $15,000 or</li><li>10% of AWS usage for the first $150,000</li><li>7$ of AWS usage from $150,000-$500,000</li><li>7% of AWS usage from $150,000 - $500,000</li><li>5% of AWS usage from $500,000 - $1,000,000</li><li>3% of usage over $1,000,000</li></ul>|
+
+
+
+
 ### __Documentation and Online Help__
 ### __Trusted Advisor__
 
