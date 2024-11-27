@@ -264,6 +264,23 @@ Support is also available through the AWS professional services organization. Th
 
 ### __Documentation and Online Help__
 
+__AWS Documentation__
+
+The AWS Documentation can be found or the [documentation site](https://docs.aws.amazon.com/). When looking for documenation, make sure the URL contains _latest_. 
+
+An important subset of the documentation is the [AWS Prescriptive Guidance Library](https://aws.amazon.com/prescriptive-guidance). You'll find a collection of papers from AWS exports. 
+
+__Knowledge Center__
+
+The [AWS Knowledge Center](https://repost.aws/knowledge-center) is basically a FAQ page with items sorted by service. 
+
+__Security Resources__
+
+Amazon Security oriented sites:
+
+* [Cloud Security Learning Resources](https://aws.amazon.com/security/security-learning/?cards-top.sort-by=item.additionalFields.sortDate&cards-top.sort-order=desc&awsf.Types=*all).
+* [AWS Security Blog](https://aws.amazon.com/blogs/security/)
+* 
 
 ### __Trusted Advisor__
 
