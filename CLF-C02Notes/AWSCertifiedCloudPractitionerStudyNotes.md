@@ -280,9 +280,30 @@ Amazon Security oriented sites:
 
 * [Cloud Security Learning Resources](https://aws.amazon.com/security/security-learning/?cards-top.sort-by=item.additionalFields.sortDate&cards-top.sort-order=desc&awsf.Types=*all).
 * [AWS Security Blog](https://aws.amazon.com/blogs/security/)
-* 
+*
 
 ### __Trusted Advisor__
+
+Trusted Advisor can be used to confirm whether your account resource configurations are sound and are compliant with best practices. There are five catagories:
+
+|Catagory|Purpose|Examples|
+|---|---|---|
+|Cost Optimization| Identify any resources that are running and costing money that are underutilized or inactive| EC2 Instances or Redshift clusters that, overtime, are idle.|
+Performance| Identifies configuration settings that might be blocking performance improviements.| Inappropriate reliance on slower magnetic or low-throughput EBS volumes.|
+|Security| Identifies any failures to use security best-practice configurations| S3 buckets with publically accessable permissions or security groups permitting unrestricted access|
+|Fault Tolerance| Identifies any running resources that, through poor configuration, are unnecessarily vunerable to service disruptions|Data volumes that aren't properly backed up or instances that aren't replicated.|
+|Service Limits| Identifies resource usage that's approaching AWS REgion or service limits.|Your account is currently using close to the 100 S3 bucket limit|
+
+### __Exam Essentials__
+
+**Know how to choose a support plan that reflects your operational needs.** Configuration mistakes can be costly. Better support levels have their advantages. 
+
+**Understand the benefits of the Enterprise Supoort plan's technical account manager.**  Having a TAM can make a significant differents in the quality of service. 
+
+**Understand how to find AWS resource usage through the offical AWS documentation.** Remeber there is resource documentation and also the [Knowledge Center](https://repost.aws/knowledge-center). 
+
+**Understand how to use the Trusted Advisor for alerts to common system misconfigurations.**  Routinely visit the Trusted Advisor to ensure that your resource configurations are sound and compliant with best practices. 
+
 
 ## __Chapter 4 Understand the AWS Environment__
 ### __AWS Global Infrastructure: AWS Regions__
