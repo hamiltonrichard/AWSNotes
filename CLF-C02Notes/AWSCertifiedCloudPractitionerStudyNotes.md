@@ -250,12 +250,12 @@ Types of support plans and their costs.
 | :---:| :---|:---|
 | _Developer Plan_ | <ul><li>$29 a month or</li><li>3% of your monthly account usage.</li></ul>|This plan is suitable for non production workloads. Limitations of the plan include access to support staff, which is only available during business hours via email.This also gets you limited access to the trusted advisor tool.|
 |_Business Plan_| <ul><li>Greater of $100 or</li><li>10% of usage up to $10.000<li>7% of usage up to $80,000</li><li>5% usage up to $250,000</li><li>3% of usage over $250,000</li></ul>|This plan includes support for down resources. This plan guarantees a response from a cloud engineer via email chat or phone call within one hour. Less severe issues can take longer up to 24 hours. This circle can include help troubleshooting. Interprobability between Advs Resources and 3rd party software and operating systems. For the additional fee, you can also get in depth guidance while your. Still in the project design stage through infrastructure, event management.|
-|_Enterprise Plan_|<ul><li>Greator of $15,000 or</li><li>10% of AWS usage for the first $150,000</li><li>7$ of AWS usage from $150,000-$500,000</li><li>7% of AWS usage from $150,000 - $500,000</li><li>5% of AWS usage from $500,000 - $1,000,000</li><li>3% of usage over $1,000,000</li></ul>|This plan is appropriate only for large organizations. The scope is global and for whom downtime is unacceptable. You get a technical account manager assigned to you for guidance advocacy. A technical account manager becomes closely involved with your deployment, guides your team through planning launches and proactive reviews and all optimize using best practices. In addition to technical account managers, you get 24/7 access to senior support cloud engineers and a 15 minute response time for business critical troubleshooting.|
+|_Enterprise Plan_|<ul><li>Greator of $15,000 or</li><li>10% of AWS usage for the first $150,000</li><li>7% of AWS usage from $150,000-$500,000</li><li>7% of AWS usage from $150,000 - $500,000</li><li>5% of AWS usage from $500,000 - $1,000,000</li><li>3% of usage over $1,000,000</li></ul>|This plan is appropriate only for large organizations. The scope is global and for whom downtime is unacceptable. You get a technical account manager assigned to you for guidance advocacy. A technical account manager becomes closely involved with your deployment, guides your team through planning launches and proactive reviews and all optimize using best practices. In addition to technical account managers, you get 24/7 access to senior support cloud engineers and a 15 minute response time for business critical troubleshooting.|
 
 Check for updated [Support Plan Pricing here](https://aws.amazon.com/premiumsupport/pricing/).
 
 There is also an Enterprise On-Ramp support level for business critical workloads that will cost greater of $5500 or 10 per cent of your annual AWS usage.
-
+Lunchtime.
 Beyond those support resources, all paid support plans come with prioritized access to [AWS re:Post](https://repost.aws/knowledge-center/all).
 
 ### AWS Professional Services.
@@ -282,3 +282,12 @@ Support is also available through the AWS professional services organization. Th
 ## __Chapter 10 The Core Networking Services__
 ## __Chapter 11 Automating AWS Workloads__
 ## __Chapter 12 Common Use-Case Scenarios__
+## __Additional Resources via Youtube__
+__Youtube Sources__
+[AWS Certified Cloud Practitioner COMPLETE STUDY GUIDE](https://www.youtube.com/watch?v=JsmhEgIV1mQ) - 2024 by Learn2Cloud1017
+
+[AWS Certified Cloud Practitioner Certification Course \(CLF-C02\)](https://www.youtube.com/watch?v=NhDYbskXRgc) - Pass the Exam! by freeCodeCamp.org
+
+[I Passed the AWS Cloud Practitioner Exam in 7 Days](https://www.youtube.com/watch?v=jk1p6hKxCPY) by Ben Truong
+
+[How I Passed the AWS Cloud Practitioner Exam | My Ranking of the Best Prep Materials](https://www.youtube.com/watch?v=TO81JVm9wAs) by Tech with Hitch
