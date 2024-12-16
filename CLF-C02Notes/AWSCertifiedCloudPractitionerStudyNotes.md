@@ -250,7 +250,7 @@ Types of support plans and their costs.
 | :---:| :---|:---|
 | _Developer Plan_ | <ul><li>$29 a month or</li><li>3% of your monthly account usage.</li></ul>|This plan is suitable for non production workloads. Limitations of the plan include access to support staff, which is only available during business hours via email.This also gets you limited access to the trusted advisor tool.|
 |_Business Plan_| <ul><li>Greater of $100 or</li><li>10% of usage up to $10.000<li>7% of usage up to $80,000</li><li>5% usage up to $250,000</li><li>3% of usage over $250,000</li></ul>|This plan includes support for down resources. This plan guarantees a response from a cloud engineer via email chat or phone call within one hour. Less severe issues can take longer up to 24 hours. This circle can include help troubleshooting. Interprobability between Advs Resources and 3rd party software and operating systems. For the additional fee, you can also get in depth guidance while your. Still in the project design stage through infrastructure, event management.|
-|_Enterprise Plan_|<ul><li>Greator of $15,000 or</li><li>10% of AWS usage for the first $150,000</li><li>7% of AWS usage from $150,000-$500,000</li><li>7% of AWS usage from $150,000 - $500,000</li><li>5% of AWS usage from $500,000 - $1,000,000</li><li>3% of usage over $1,000,000</li></ul>|This plan is appropriate only for large organizations. The scope is global and for whom downtime is unacceptable. You get a technical account manager assigned to you for guidance advocacy. A technical account manager becomes closely involved with your deployment, guides your team through planning launches and proactive reviews and all optimize using best practices. In addition to technical account managers, you get 24/7 access to senior support cloud engineers and a 15 minute response time for business critical troubleshooting.|
+|_Enterprise Plan_|<ul><li>Greator of $15,000 or</li><li>10% of AWS usage for the first $150,000</li><li>7$ of AWS usage from $150,000-$500,000</li><li>7% of AWS usage from $150,000 - $500,000</li><li>5% of AWS usage from $500,000 - $1,000,000</li><li>3% of usage over $1,000,000</li></ul>|This plan is appropriate only for large organizations. The scope is global and for whom downtime is unacceptable. You get a technical account manager assigned to you for guidance advocacy. A technical account manager becomes closely involved with your deployment, guides your team through planning launches and proactive reviews and all optimize using best practices. In addition to technical account managers, you get 24/7 access to senior support cloud engineers and a 15 minute response time for business critical troubleshooting.|
 
 Check for updated [Support Plan Pricing here](https://aws.amazon.com/premiumsupport/pricing/).
 
@@ -264,8 +264,46 @@ Support is also available through the AWS professional services organization. Th
 
 ### __Documentation and Online Help__
 
+__AWS Documentation__
+
+The AWS Documentation can be found or the [documentation site](https://docs.aws.amazon.com/). When looking for documenation, make sure the URL contains _latest_. 
+
+An important subset of the documentation is the [AWS Prescriptive Guidance Library](https://aws.amazon.com/prescriptive-guidance). You'll find a collection of papers from AWS exports. 
+
+__Knowledge Center__
+
+The [AWS Knowledge Center](https://repost.aws/knowledge-center) is basically a FAQ page with items sorted by service. 
+
+__Security Resources__
+
+Amazon Security oriented sites:
+
+* [Cloud Security Learning Resources](https://aws.amazon.com/security/security-learning/?cards-top.sort-by=item.additionalFields.sortDate&cards-top.sort-order=desc&awsf.Types=*all).
+* [AWS Security Blog](https://aws.amazon.com/blogs/security/)
+*
 
 ### __Trusted Advisor__
+
+Trusted Advisor can be used to confirm whether your account resource configurations are sound and are compliant with best practices. There are five catagories:
+
+|Catagory|Purpose|Examples|
+|---|---|---|
+|Cost Optimization| Identify any resources that are running and costing money that are underutilized or inactive| EC2 Instances or Redshift clusters that, overtime, are idle.|
+Performance| Identifies configuration settings that might be blocking performance improviements.| Inappropriate reliance on slower magnetic or low-throughput EBS volumes.|
+|Security| Identifies any failures to use security best-practice configurations| S3 buckets with publically accessable permissions or security groups permitting unrestricted access|
+|Fault Tolerance| Identifies any running resources that, through poor configuration, are unnecessarily vunerable to service disruptions|Data volumes that aren't properly backed up or instances that aren't replicated.|
+|Service Limits| Identifies resource usage that's approaching AWS REgion or service limits.|Your account is currently using close to the 100 S3 bucket limit|
+
+### __Exam Essentials__
+
+**Know how to choose a support plan that reflects your operational needs.** Configuration mistakes can be costly. Better support levels have their advantages. 
+
+**Understand the benefits of the Enterprise Supoort plan's technical account manager.**  Having a TAM can make a significant differents in the quality of service. 
+
+**Understand how to find AWS resource usage through the offical AWS documentation.** Remeber there is resource documentation and also the [Knowledge Center](https://repost.aws/knowledge-center). 
+
+**Understand how to use the Trusted Advisor for alerts to common system misconfigurations.**  Routinely visit the Trusted Advisor to ensure that your resource configurations are sound and compliant with best practices. 
+
 
 ## __Chapter 4 Understand the AWS Environment__
 ### __AWS Global Infrastructure: AWS Regions__
