@@ -304,8 +304,9 @@ Performance| Identifies configuration settings that might be blocking performanc
 
 **Understand how to use the Trusted Advisor for alerts to common system misconfigurations.**  Routinely visit the Trusted Advisor to ensure that your resource configurations are sound and compliant with best practices. 
 
-
 ## __Chapter 4 Understand the AWS Environment__
+
+
 ### __AWS Global Infrastructure: AWS Regions__
 ### __AWS Global Infrastructure: Availability Zones__
 ### __AWS GLobal Infrastructure: Edge Locations__
